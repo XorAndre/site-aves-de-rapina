@@ -1,6 +1,37 @@
+//Breakpoints
+desktop= 768px
+//fonts
+roboto= -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+trebuchet= 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+//banner
 .banner_topo
-    background-image url(../../img/banner-topo.jpg)
+    background-image url("./../img/banner-topo.jpg")
+    background-attachment fixed
     background-repeat no-repeat
-    background-size cover
+    background-size 100%
     color #fff
-    min-height 70em
+    font-family roboto
+    .container
+        padding: 10rem 0
+        h1 
+            font-size 4rem
+            text-transform uppercase
+        p 
+            font-size 1.2rem     
+    @media(min-width: desktop)
+        min-height 39rem
+        .container
+            padding 15rem 0 10rem 0 
+            h1 
+                font-family trebuchet
+                font-size 6rem   
+//Sections
+section
+    .container
+        padding: 3rem 0
+        h2, h3, h4, p
+            font-family roboto
+        h2
+            font-size 2rem
+        p
+            font-size 1.3rem    
