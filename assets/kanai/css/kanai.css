@@ -41,20 +41,21 @@
   font-weight: 600;
   margin: 0.5rem;
   padding: 0.6rem 1rem;
+  text-transform: uppercase;
 }
-.bt .bt-blue {
+.bt.bt-blue {
   background-color: #3498db;
   border-color: #3498db;
 }
-.bt .bt-green {
+.bt.bt-green {
   background-color: #2ecc71;
   border-color: #2ecc71;
 }
-.bt .bt-red {
+.bt.bt-red {
   background-color: #e74c3c;
   border-color: #e74c3c;
 }
-.bt .bt-yellow {
+.bt.bt-yellow {
   background-color: #f1c40f;
   border-color: #f1c40f;
 }
